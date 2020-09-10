@@ -29,6 +29,7 @@ a:link, a:visited {
   padding: 1px;
   position: fixed;
   z-index: 99;
+  box-shadow: 0 0 20px #404040;
 }
 
 .logo {
