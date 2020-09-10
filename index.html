@@ -5,9 +5,9 @@
     <title>Pietro Girotto</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;1,300;1,700&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='default.css'>
-
+    <link rel='stylesheet' href='index-css.css'>
   </head>
-  <body>
+  <body class='roboto-font'>
     <header class='header orbitron-font' >
       <ul>
         <li>
@@ -26,21 +26,32 @@
       </ul>
     </header>
     <div style='height: 70px'></div>
-
-    <div class='three-pictures'>
+    <nav class='three-pictures'>
       <a href='#faq' class='image-link uno'>
-        <img src='images/why-quadrato.jpg' alt='an old writing machine'>
+        <div class='single-blur'>
+          <img src='images/why-quadrato.jpg'>
+          <h1>FAQ</h1>
+          <h4>May the Stars let you find your answer here<br>If not, simply email me</h4>
+        </div>
       </a>
 
       <a href='#portfolio' class='image-link due'>
-        <img src='images/workshop-quadrato.jpg' alt='image of a workshop'>
+        <div class='single-blur'>
+          <img src='images/workshop-quadrato.jpg'>
+          <h1>MY PORTFOLIO</h1>
+            <h4>A collection of my latest (and finest) works</h4>
+        </div>
       </a>
 
-      <a href='about-me.html' class='image-link tre'>
-        <img src='images/me.jpg'>
+      <a href='abut-me.html' class='image-link tre'>
+        <div class='single-blur'>
+            <img src='images/me.jpg'>
+            <h1>MORE ABOUT ME</h1>
+            <h4>Who am I? Why asking in the first place<br>Neverthless, here you are!</h4>
+        </div>
       </a>
-    </div>
-
+    </nav>
+    
 
     <footer class='footer orbitron-font'>
       <ul>
@@ -69,7 +80,7 @@
           </a>
         </li>
       </ul>
-      <a href='#top'>Go Back Up</a>
+      <a href='#top' style="font-size: 11px">Go Back Up</a>
     </footer>
   </body>
 </html>

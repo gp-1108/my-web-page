@@ -78,41 +78,7 @@ a:link, a:visited {
   animation-fill-mode: forwards;
 }
 
-.three-pictures {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin: 0 auto;
-  width: 70%;
-  max-width: 700px;
-  height: 550px;
-}
 
-.image-link {
-  display:block;
-  width:50%;
-
-}
-.image-link img {
-  width:100%;
-  border-radius: 7px;
-}
-.uno {
-  position: absolute;
-  width:60%;
-  top: 0px;
-  left: 0px;
-}
-.due {
-  position:absolute;
-  width:60%;
-  bottom: 0px;
-  right: 0px;
-}
-.tre {
-  z-index:1;
-}
 @keyframes fade {
   0% {
     background-color: inherit;
@@ -121,14 +87,5 @@ a:link, a:visited {
   100% {
     background-color: #383838;
     color: whitesmoke;
-  }
-}
-
-@keyframes underline {
-  0% {
-    border-bottom: inherit;
-  }
-  100% {
-    border-bottom: 1px solid #383838;
   }
 }
