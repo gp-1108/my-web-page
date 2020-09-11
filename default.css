@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: #efefef;
 }
@@ -33,6 +37,10 @@ a:link, a:visited {
   padding: 1px;
   position: fixed;
   z-index: 99;
+  transition: 300ms;
+}
+
+.header:hover {
   box-shadow: 0 0 20px #404040;
 }
 
@@ -83,6 +91,19 @@ a:link, a:visited {
   animation-fill-mode: forwards;
 }
 
+.underlined {
+  border-bottom: 3px solid #e0c7af;
+  filter: brightness(80%);
+  transition: 200ms;
+}
+
+.underlined:hover {
+  filter: brightness(100%);
+}
+
+.small-link {
+
+}
 
 @keyframes fade {
   0% {
@@ -92,5 +113,15 @@ a:link, a:visited {
   100% {
     background-color: #383838;
     color: whitesmoke;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+    position:absolute;
+    box-shadow: none;
+  }
+  .header:hover {
+    box-shadow: none;
   }
 }
