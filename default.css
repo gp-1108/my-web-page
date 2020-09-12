@@ -37,7 +37,7 @@ a:link, a:visited {
   padding: 1px;
   position: fixed;
   z-index: 99;
-  transition: 300ms;
+  transition: 200ms;
 }
 
 .header:hover {
@@ -93,16 +93,15 @@ a:link, a:visited {
 
 .underlined {
   border-bottom: 3px solid #e0c7af;
-  filter: brightness(80%);
-  transition: 200ms;
 }
 
-.underlined:hover {
+.glow:hover {
   filter: brightness(100%);
 }
 
-.small-link {
-
+.glow {
+  filter: brightness(80%);
+  transition: 200ms;
 }
 
 @keyframes fade {
