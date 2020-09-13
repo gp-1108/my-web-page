@@ -126,7 +126,7 @@ h1.line-side::after {
     margin-bottom: 0;
     line-height: 1.3em;
   }
-  
+
 .question-answer p:first-of-type {
     text-indent: 0;
     margin-top: 5px;
@@ -144,7 +144,7 @@ h1.line-side::after {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 551px) {
+@media screen and (min-width: 651px) {
   .question-answer {
     text-align:center;
     display:block;
