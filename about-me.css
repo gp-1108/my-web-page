@@ -1,6 +1,6 @@
 
 .main-container {
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
 }
 
 .photo-text {
@@ -46,21 +46,6 @@
   font-style: italic;
 }
 
-.resume {
-  width: 100%;
-  text-align: center;
-  margin: 20px 0 15px 0;
-}
-
-.resume a{
-  font-size: 22px;
-  transition: 300ms;
-  padding: 10px;
-}
-
-.resume a:hover {
-  box-shadow: 0 0 4px #383838;
-}
 
 @media screen and (min-width: 951px){
   .main-container {
@@ -80,12 +65,7 @@
     font-size: 18px;
   }
 
-  .resume {
-    font-size: 25px;
-    text-align: right;
-    margin: 80px 0 60px 0;
-  }
-  .resume a {
-    margin-right: 40px;
+  .main-container {
+    margin-bottom: 80px;
   }
 }
