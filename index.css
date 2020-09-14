@@ -41,9 +41,11 @@
 .tre {
   z-index:1;
 }
+
 .single-blur{
   position:relative;
 }
+
 .single-blur :not(img){
   position: absolute;
   top:30%;
@@ -52,10 +54,12 @@
   color: whitesmoke;
   opacity:0;
 }
+
 .single-blur h4,.single-blur h5{
   top:50%;
   font-size: 14.5px;
 }
+
 .single-blur:hover img {
   filter:blur(2px) brightness(45%);
 }
