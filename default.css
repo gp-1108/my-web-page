@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,11 +12,23 @@ body {
     background-color: #efefef;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.page-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  min-height: 100vh;
 }
+
+.footer {
+  
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+
 a:link, a:visited {
   text-decoration: none;
   color: inherit;
@@ -70,6 +88,8 @@ a:link, a:visited {
   display:flex;
   flex-direction: column;
   justify-content: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer a {
